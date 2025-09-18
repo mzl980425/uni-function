@@ -17,9 +17,18 @@ This is a cloud function template. Write once and deploy to multiple platforms â
 
 ### [Deno Deploy<sup>EA</sup>](https://console.deno.com/)
 
-1. Star and fork the repository.
+1. Star the repository.
 2. Click on [![Deploy on Deno](https://deno.com/button)](https://console.deno.com/new?clone=https%3A%2F%2Fgithub.com%2Fmzl980425%2Funi-function).
 3. Edit build config:
    - Framework Preset: `No Preset`
    - Entrypoint: `api/deno-deploy.ts`
 4. Click "Create App" to deploy the project.
+
+### [EdgeOne](https://edgeone.ai/)
+
+1. Star the repository.
+2. Click on [![Use EdgeOne Pages to deploy](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://edgeone.ai/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Fmzl980425%2Funi-function&output-directory=.%2Fedge-functions&install-command=npx%20deno%20task%20build%3Aedgeone).
+3. Configure the project:
+   - Build output directory: `./edge-functions`
+   - Install command: `npx deno task build:edgeone`
+4. Click "Start deployment" to deploy the project.
