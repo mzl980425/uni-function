@@ -32,3 +32,9 @@ This is a cloud function template. Write once and deploy to multiple platforms â
    - Build output directory: `./edge-functions`
    - Install command: `npx deno task build:edgeone`
 4. Click "Start deployment" to deploy the project.
+
+### [Vercel](https://vercel.com/)
+
+1. Star the repository.
+2. Click on [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmzl980425%2Funi-function).
+3. Click "Create" to deploy the project.
