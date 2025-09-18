@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "install": "npx deno task build:edgeone"
+  }
+}

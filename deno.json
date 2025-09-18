@@ -1,5 +1,6 @@
 {
   "tasks": {
+    "build:edgeone": "deno bundle --output ./edge-functions/index.js ./api/edgeone.ts && cp ./edge-functions/index.js \"./edge-functions/[[default]].js\"",
     "dev": "deno -A --watch ./src/main.ts"
   }
 }
