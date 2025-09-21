@@ -3,5 +3,5 @@
   "compatibility_date": "2025-09-17",
   "observability": {
     "enabled": true
-  }
+  },"name": "uni-function"
 }
