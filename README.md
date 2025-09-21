@@ -79,7 +79,7 @@ This is a cloud function template. Write once, deploy to multiple platforms — 
    - **Output Directory**: `.`
 5. Click **"Deploy"** to deploy the project.
 
-### General NodeJS
+### Generic NodeJS
 
 1. Download the repository to your machine or VPS.
 2. Navigate to the project directory.
